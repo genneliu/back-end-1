@@ -18,6 +18,6 @@ app.get("/weather/:temperature", (req, res) => {
     res.status(200).send(phrase);
 })
 
-const SERVER_PORT = 4200;
-app.listen(4200, () => console.log("Server running on port 4200"));
+const SERVER_PORT = 4000;
+app.listen(4000, () => console.log("Server running on port 4000"));
 
